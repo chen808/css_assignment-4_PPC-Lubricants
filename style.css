@@ -1,0 +1,163 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+p, a, h1{
+	font-family: helvetica;
+	font-size: 0.8em;
+}
+
+#wrapper{
+	width: 1020px;
+	margin: 0 auto;
+}
+
+/* Styling Header Area */
+#headerBlock{
+	height: 70px;
+	background-color: #f5f5f5;
+}
+
+header h1{
+	margin-left: 735px;
+	margin-top: -45px;
+	font-size: 1em;
+}
+
+header img{
+	margin-left: 20px;
+}
+
+/* Styling Main Nav Area */
+#mainNav{
+	background-color: #d3d3d3;
+	background: linear-gradient(#DCDCDC, #A9A9A9);
+	height: 35px;
+	border-top: 1px solid #a9a9a9;
+}
+
+#mainNav ul{
+	margin-left: 35px;
+	padding-top: 10px;
+}
+
+#mainNav li{
+	display: inline;
+	padding-top: 10px;
+	padding-bottom: 7px;
+	padding-right: 12px;
+	padding-left: 20px;
+	border-left: 1px solid #a9a9a9;
+}
+
+#mainNav a{
+	text-decoration: none;
+	color: #696969;
+	font-weight: bold;
+}
+
+#mainNav li:nth-child(7){
+	border-right: 1px solid #a9a9a9;
+}
+
+
+/* Styling the main context container */
+#overallMainContainer{
+	background-color: #444;
+	margin-top: 35px;
+}
+
+
+#mainContainer h3 img{
+	border: 5px solid white;
+	margin: 20px 0px 0px 35px;
+	display: inline-block;
+}
+
+#bioOfCompany{
+	width: 550px;
+	height: 270px;
+	background-color: white;
+	background-color: hsla(0,100%,100%,0.3);
+	display: inline-block;
+	vertical-align: top;
+	margin: -275px 0px 0px 445px;
+}
+
+.goldBox{
+	background-color: #FFD700;
+	background: linear-gradient(#FFD700, #DAA520);
+	height: 20px;
+	padding: 5px 0px 0px 15px;
+	font-weight: bold;
+}
+
+#content p{
+	width: 480px;
+	margin: 0 auto;
+	padding-top: 10px;
+	color: white;
+}
+
+span{
+	font-weight: bold;
+}
+
+
+/* Styling bulk delivery message */
+#bulkDelieveryText{
+	width: 960px;
+	height: 25px;
+	padding-top: 10px;
+	margin: -20px 0px 0px 50px;
+}
+
+#bulkDelieveryText p{
+	margin: -18px 0px 0px 70px;
+	font-size: 0.7em;
+	color: yellow;
+}
+
+
+/* Styling the 4 boxes */
+#container{
+	padding-left: 30px;
+}
+
+#box1of4, #box2of4, #box3of4, #box4of4{
+	width: 225px;
+	height: 300px;
+	background-color: white;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 15px;
+}
+
+#box1of4 p:nth-child(1), #box2of4 p:nth-child(1),
+#box3of4 p:nth-child(1), #box4of4 p:nth-child(1){
+	background: linear-gradient(#FFD700, #DAA520);
+	height: 25px;
+	padding: 10px 0px 0px 10px;
+	font-weight: bold;
+}
+
+#box1of4 p:nth-child(3), #box2of4 p:nth-child(3),
+#box3of4 p:nth-child(3), #box4of4 p:nth-child(3){
+	padding: 10px 10px 0px 10px;
+}
+
+#box1of4 p:nth-child(4), #box2of4 p:nth-child(4){
+	margin-left: 130px;
+	padding: 26px 0px 20px 0px;
+}
+
+#box3of4 p:nth-child(4){
+	margin-left: 130px;
+	padding: 30px 0px 20px 0px;
+}
+
+#box4of4 p:nth-child(4){
+	margin-left: 130px;
+	padding: 10px 0px 20px 0px;
+}
